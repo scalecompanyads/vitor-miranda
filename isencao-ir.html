@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Defesa em Execução Fiscal | Dr. Vitor Hugo Miranda — Advogado Tributarista</title>
+  <title>Isenção de Imposto de Renda para Aposentados com Doenças Graves | Dr. Vitor Hugo Miranda</title>
   <meta name="description"
-    content="Proteja suas contas bancárias e seu patrimônio contra bloqueios judiciais e execução fiscal. Atendimento urgente e sigiloso em todo o Brasil.">
+    content="Aposentados, pensionistas e militares da reserva com doenças graves têm direito à isenção total do Imposto de Renda. Análise gratuita e sigilosa pelo WhatsApp.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,8 +65,8 @@
       background: var(--bg);
       color: var(--text);
       font-family: var(--sans);
-      line-height: 1.65;
-      font-size: 17px;
+      line-height: 1.68;
+      font-size: 18px;
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
     }
@@ -100,7 +100,7 @@
     }
 
     #hero-text {
-      max-width: 640px;
+      max-width: 660px;
       margin: 0 auto
     }
 
@@ -114,28 +114,47 @@
     #hero-text h1 {
       font-family: var(--serif);
       font-weight: 700;
-      line-height: 1.12;
-      font-size: clamp(2.2rem, 4.8vw, 3.6rem);
+      line-height: 1.16;
+      font-size: clamp(1.7rem, 3.6vw, 2.6rem);
       color: #fff;
       letter-spacing: -.01em
     }
 
     #hero-text .hero-sub {
-      margin: 26px 0 38px;
-      font-size: 1.15rem;
+      margin: 26px 0 32px;
+      font-size: 1.18rem;
       color: var(--text-muted);
-      max-width: 520px;
+      max-width: 540px;
       text-wrap: pretty
     }
 
     @media (max-width:1200px) {
       #hero-text h1 {
-        font-size: clamp(1.85rem, 6.5vw, 2.6rem)
+        font-size: clamp(1.5rem, 5vw, 2rem)
       }
 
       #hero-text .hero-sub {
-        font-size: 1.02rem;
+        font-size: 1.05rem;
         margin: 18px 0 26px
+      }
+    }
+
+    @media (max-width:600px) {
+      #hero-text .hero-sub {
+        font-size: .9rem;
+        margin: 14px 0 22px
+      }
+
+      .btn-hero {
+        font-size: .72rem;
+        padding: 14px 16px;
+        white-space: nowrap;
+        gap: 6px;
+      }
+
+      .btn-hero svg {
+        width: 18px;
+        height: 18px;
       }
     }
 
@@ -152,7 +171,7 @@
       }
 
       #hero-text {
-        max-width: 500px;
+        max-width: 540px;
         margin: 0
       }
 
@@ -170,9 +189,9 @@
       border: 1px solid var(--orange-dim);
       border-radius: 999px;
       padding: 7px 16px;
-      font-size: .8rem;
+      font-size: .85rem;
       font-weight: 600;
-      letter-spacing: .08em;
+      letter-spacing: .06em;
       text-transform: uppercase;
       color: var(--orange-soft);
       margin-bottom: 28px;
@@ -188,13 +207,19 @@
       animation: pulse 1.8s infinite
     }
 
+    @media (max-width: 768px) {
+      .badge {
+        display: none;
+      }
+    }
+
     .eyebrow {
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      font-size: .78rem;
+      font-size: .82rem;
       font-weight: 600;
-      letter-spacing: .18em;
+      letter-spacing: .16em;
       text-transform: uppercase;
       color: var(--orange);
       margin-bottom: 18px;
@@ -215,9 +240,9 @@
     h2 {
       font-family: var(--serif);
       font-weight: 600;
-      line-height: 1.15;
-      font-size: clamp(1.7rem, 3.4vw, 2.5rem);
-      max-width: 680px;
+      line-height: 1.18;
+      font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+      max-width: 720px;
       color: #fff
     }
 
@@ -228,8 +253,8 @@
     .section-lead {
       margin-top: 20px;
       color: var(--text-muted);
-      max-width: 640px;
-      font-size: 1.05rem
+      max-width: 680px;
+      font-size: 1.12rem
     }
 
     .section-paper .section-lead {
@@ -252,17 +277,8 @@
       margin-top: 44px
     }
 
-    .grid-250 {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 22px
-    }
-
     .grid-280 {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
-    }
-
-    .grid-240 {
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
     }
 
     /* ── Botão WhatsApp ── */
@@ -274,7 +290,7 @@
       color: #fff;
       text-decoration: none;
       font-weight: 700;
-      font-size: 1.02rem;
+      font-size: 1.05rem;
       padding: 18px 32px;
       border-radius: 10px;
       box-shadow: 0 8px 28px rgba(31, 174, 84, .35);
@@ -288,7 +304,7 @@
     }
 
     .btn-whatsapp.btn-lg {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       padding: 20px 40px
     }
 
@@ -298,8 +314,8 @@
 
     .btn-note {
       display: block;
-      margin-top: 12px;
-      font-size: .85rem;
+      margin-top: 14px;
+      font-size: .92rem;
       color: var(--text-muted)
     }
 
@@ -323,74 +339,69 @@
       transform: scale(1.08)
     }
 
-    /* ── Dark Wireframe Grid (Dor) ── */
-    .dark-wireframe-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0;
-      margin-top: 50px;
-      border: 1px solid rgba(201, 136, 77, 0.2);
-      border-radius: 12px;
-      overflow: hidden;
-      background: rgba(0, 0, 0, 0.1);
+    /* ── Cartões de direito (Seção 1) ── */
+    .right-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(201, 136, 77, .22);
+      border-radius: 14px;
+      padding: 34px 30px;
     }
 
-    .wireframe-item {
-      padding: 48px 40px;
-      border-right: 1px solid rgba(201, 136, 77, 0.15);
-      border-bottom: 1px solid rgba(201, 136, 77, 0.15);
-      transition: background 0.4s ease;
-    }
-
-    .wireframe-item:nth-child(2n) {
-      border-right: none;
-    }
-
-    .wireframe-item:nth-last-child(-n+2) {
-      border-bottom: none;
-    }
-
-    .wireframe-item:hover {
-      background: radial-gradient(circle at center, rgba(201, 136, 77, 0.06) 0%, transparent 80%);
-    }
-
-    .wireframe-icon {
-      font-size: 2.2rem;
+    .right-card .right-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 1px solid rgba(201, 136, 77, .4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--orange-soft);
       margin-bottom: 20px;
-      text-shadow: 0 0 16px rgba(201, 136, 77, 0.4);
     }
 
-    .wireframe-item h3 {
+    .right-card h3 {
       font-family: var(--serif);
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       font-weight: 600;
       color: #fff;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       line-height: 1.3;
     }
 
-    .wireframe-item p {
-      font-size: 1.05rem;
+    .right-card p {
+      font-size: 1.02rem;
       color: var(--text-muted);
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
-    @media (max-width: 768px) {
-      .badge {
-        display: none;
-      }
+    /* ── Lista de doenças elegíveis (Seção 2) ── */
+    .disease-grid {
+      margin-top: 44px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4px 40px;
+    }
 
-      .dark-wireframe-grid {
+    .disease-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      font-size: 1.08rem;
+      color: var(--text);
+      padding: 15px 0;
+      border-bottom: 1px solid rgba(201, 136, 77, .16);
+    }
+
+    .disease-item .check {
+      color: var(--orange);
+      flex: none;
+      font-size: 1.2rem;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 700px) {
+      .disease-grid {
         grid-template-columns: 1fr;
-      }
-
-      .wireframe-item {
-        border-right: none;
-        border-bottom: 1px solid rgba(201, 136, 77, 0.15);
-      }
-
-      .wireframe-item:last-child {
-        border-bottom: none;
       }
     }
 
@@ -439,7 +450,7 @@
     .editorial-content p {
       font-size: 1.1rem;
       color: var(--ink-muted);
-      max-width: 600px;
+      max-width: 620px;
       line-height: 1.7;
     }
 
@@ -509,27 +520,9 @@
     }
 
     .architect-item p {
-      font-size: 1rem;
+      font-size: 1.02rem;
       color: var(--ink-muted);
       line-height: 1.6;
-    }
-
-    .authority-grid {
-      display: grid;
-      grid-template-columns: minmax(280px, 440px) 1fr;
-      gap: 56px;
-      align-items: center;
-    }
-
-    .authority-photo {
-      aspect-ratio: 4/5;
-    }
-
-    @media (max-width: 900px) {
-      .authority-grid {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
     }
 
     @media (max-width: 1024px) {
@@ -560,6 +553,25 @@
 
       .architect-item:last-child {
         border-bottom: none;
+      }
+    }
+
+    /* ── Autoridade ── */
+    .authority-grid {
+      display: grid;
+      grid-template-columns: minmax(280px, 440px) 1fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .authority-photo {
+      aspect-ratio: 4/5;
+    }
+
+    @media (max-width: 900px) {
+      .authority-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
       }
     }
 
@@ -606,13 +618,13 @@
 
     .step h3 {
       font-family: var(--sans);
-      font-size: 1.05rem;
+      font-size: 1.1rem;
       font-weight: 700;
       margin-bottom: 10px
     }
 
     .step p {
-      font-size: .95rem;
+      font-size: 1rem;
       color: var(--text-muted)
     }
 
@@ -801,108 +813,148 @@
     <div id="hero-text-wrap">
       <div id="hero-text">
         <img id="hero-logo" src="logo.png" alt="Vitor Miranda Advogados">
-        <span class="badge"><span class="dot"></span> Atendimento de urgência Execução Fiscal</span>
-        <h1>Seu patrimônio e sua empresa estão sob ameaça de <em
-            style="font-style:normal; color:var(--orange-soft);">Execução Fiscal?</em></h1>
-        <p class="hero-sub">Evite <strong style="color:var(--text);">bloqueios judiciais em suas contas
-            bancárias</strong> e proteja seus bens com quem já economizou <strong style="color:var(--text);">mais de
-            R$&nbsp;25&nbsp;milhões</strong> para centenas de empresários.</p>
-        <a class="btn-whatsapp"
-          href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20preciso%20de%20uma%20an%C3%A1lise%20urgente%20sobre%20execu%C3%A7%C3%A3o%20fiscal."
+        <span class="badge"><span class="dot"></span> Isenção de Imposto de Renda por Doença Grave</span>
+        <h1>Aposentados e Pensionistas com Doenças Graves têm direito à <em
+            style="font-style:normal; color:var(--orange-soft);">Isenção Total do Imposto de Renda</em></h1>
+        <p class="hero-sub">Pare de pagar o IR na fonte e recupere tudo o que foi descontado indevidamente nos
+          últimos <strong style="color:var(--text);">5 anos</strong>. Alivie o seu orçamento para focar no que
+          realmente importa: sua saúde.</p>
+        <a class="btn-whatsapp btn-hero"
+          href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20gratuita%20sobre%20a%20isen%C3%A7%C3%A3o%20de%20Imposto%20de%20Renda%20por%20doen%C3%A7a%20grave."
           target="_blank" rel="noopener">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M12 2A10 10 0 0 0 2 12a9.9 9.9 0 0 0 1.5 5.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4a1.8 1.8 0 0 0 .2-.4.5.5 0 0 0 0-.4c0-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.1 5 5 0 0 0 1 2.7 11.4 11.4 0 0 0 4.4 3.9 14.6 14.6 0 0 0 1.5.5 3.5 3.5 0 0 0 1.6.1 2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.2-.2-.4-.3Z">
             </path>
           </svg>
-          Falar com um Especialista no WhatsApp
+          Quero uma Análise do Meu Caso
         </a>
+        <span class="btn-note">Atendimento também para filhos e familiares cuidadores</span>
       </div>
     </div>
   </header>
 
-  <!-- ══════════ SEÇÃO 1: DOR E URGÊNCIA (grafite) ══════════ -->
+  <!-- ══════════ SEÇÃO 1: O DIREITO GARANTIDO POR LEI (grafite) ══════════ -->
   <section style="background:var(--bg-soft); border-top:1px solid rgba(201,136,77,.16);">
     <div class="container">
-      <span class="eyebrow">O risco é real e imediato</span>
-      <h2>O tempo é o seu maior inimigo contra o fisco.</h2>
-      <p class="section-lead">Se você recebeu uma notificação de cobrança judicial ou já enfrenta um processo de
-        execução fiscal, <strong style="color:var(--text);">cada dia de inércia aumenta o risco de um bloqueio
-          surpresa</strong>. A falta de uma defesa técnica especializada e ágil pode resultar em:</p>
+      <span class="eyebrow">Seu direito, garantido por lei</span>
+      <h2>O dinheiro que hoje vai para o Governo deveria estar custeando o seu tratamento.</h2>
+      <p class="section-lead">Muitas pessoas não sabem, mas a <strong style="color:var(--text);">Lei Federal nº
+          7.713/88</strong> garante o direito à isenção total do Imposto de Renda sobre os rendimentos de
+        aposentadoria, pensão ou reforma para quem enfrenta problemas graves de saúde. Se você ou um familiar
+        próximo possui um diagnóstico elegível, você tem o direito legal de:</p>
 
-      <div class="dark-wireframe-grid">
-        <div class="wireframe-item">
-          <div class="wireframe-icon">🏦</div>
-          <h3>Contas bancárias zeradas</h3>
-          <p>Bloqueios judiciais inesperados via SISBAJUD, sem aviso prévio. A paralisação imediata dos seus recursos
-            trava a operação inteira.</p>
+      <div class="grid grid-280">
+        <div class="right-card">
+          <div class="right-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M4.9 4.9l14.2 14.2" />
+            </svg>
+          </div>
+          <h3>Parar o desconto na fonte</h3>
+          <p>Interromper imediatamente o desconto mensal do Imposto de Renda direto no seu contracheque.</p>
         </div>
-        <div class="wireframe-item">
-          <div class="wireframe-icon">🔨</div>
-          <h3>Penhora e leilão de bens</h3>
-          <p>Imóveis, veículos e maquinários levados a leilão judicial. A perda do patrimônio físico ameaça a
-            continuidade.</p>
+        <div class="right-card">
+          <div class="right-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="6" width="20" height="12" rx="2" />
+              <circle cx="12" cy="12" r="2.5" />
+              <path d="M6 12h.01M18 12h.01" />
+            </svg>
+          </div>
+          <h3>Restituição dos últimos 5 anos</h3>
+          <p>Receber a restituição retroativa de todos os valores pagos de forma indevida desde a data do
+            diagnóstico.</p>
         </div>
-        <div class="wireframe-item">
-          <div class="wireframe-icon">📉</div>
-          <h3>Paralisação da empresa</h3>
-          <p>Operação interrompida por falta total de fluxo de caixa gerada pelo sufocamento das finanças.</p>
+        <div class="right-card">
+          <div class="right-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg>
+          </div>
+          <h3>Mais recursos para sua saúde</h3>
+          <p>Utilizar esse recurso para custear remédios, exames, planos de saúde e garantir mais qualidade de
+            vida.</p>
         </div>
-        <div class="wireframe-item">
-          <div class="wireframe-icon">🚫</div>
-          <h3>Restrições no CPF e CNPJ</h3>
-          <p>Nome negativado, crédito travado e negócios inviabilizados no mercado financeiro e com fornecedores.</p>
-        </div>
-      </div>
-
-      <div
-        style="margin-top:40px; padding:26px 30px; border-left:3px solid var(--orange); background:rgba(201,136,77,.08); border-radius:0 12px 12px 0; max-width:820px;">
-        <p style="color:var(--text); font-size:1.05rem;"><strong style="color:var(--orange-soft);">Não espere o pior
-            acontecer.</strong> Uma execução fiscal não se resolve ignorando o problema, mas sim identificando as falhas
-          técnicas e nulidades que a Receita comete no processo.</p>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ SEÇÃO 2: SOLUÇÃO (dobra clara) ══════════ -->
+  <!-- ══════════ SEÇÃO 2: QUEM TEM DIREITO (grafite) ══════════ -->
+  <section style="background:var(--bg);">
+    <div class="container">
+      <span class="eyebrow">Doenças elegíveis</span>
+      <h2>Confira se a sua condição, ou a do seu familiar, está prevista na lei</h2>
+
+      <div class="disease-grid">
+        <div class="disease-item"><span class="check">✓</span> Neoplasia Maligna (Câncer)</div>
+        <div class="disease-item"><span class="check">✓</span> Cardiopatia Grave (problemas graves no coração)</div>
+        <div class="disease-item"><span class="check">✓</span> Doença de Parkinson</div>
+        <div class="disease-item"><span class="check">✓</span> Alienação Mental (Alzheimer, demência e outras
+          condições)</div>
+        <div class="disease-item"><span class="check">✓</span> Esclerose Múltipla</div>
+        <div class="disease-item"><span class="check">✓</span> Cegueira (inclusive monocular)</div>
+        <div class="disease-item"><span class="check">✓</span> Hepatopatia Grave (doenças graves no fígado)</div>
+        <div class="disease-item"><span class="check">✓</span> Nefropatia Grave (doenças graves nos rins)</div>
+        <div class="disease-item"><span class="check">✓</span> Paralisia Irreversível e Incapacitante</div>
+        <div class="disease-item"><span class="check">✓</span> Espondiloartrose Anquilosante</div>
+        <div class="disease-item"><span class="check">✓</span> Estados avançados da doença de Paget (osteíte
+          deformante)</div>
+        <div class="disease-item"><span class="check">✓</span> Tuberculose Ativa</div>
+        <div class="disease-item"><span class="check">✓</span> Hanseníase</div>
+        <div class="disease-item"><span class="check">✓</span> Contaminação por Radiação</div>
+        <div class="disease-item"><span class="check">✓</span> Síndrome da Imunodeficiência Adquirida (AIDS)</div>
+      </div>
+
+      <div
+        style="margin-top:40px; padding:26px 30px; border-left:3px solid var(--orange); background:rgba(201,136,77,.08); border-radius:0 12px 12px 0; max-width:820px;">
+        <p style="color:var(--text); font-size:1.05rem;"><strong style="color:var(--orange-soft);">Atenção:</strong>
+          mesmo que a doença esteja controlada ou em período de remissão (como após a retirada de um tumor), o STJ
+          já pacificou o entendimento de que o direito à isenção permanece.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SEÇÃO 3: COMO ATUAMOS (dobra clara) ══════════ -->
   <section class="section-paper">
     <div class="container">
       <span class="eyebrow">Atuação estratégica</span>
-      <h2>Como protegemos o seu negócio e o seu patrimônio</h2>
-      <p class="section-lead">Nossa atuação é cirúrgica, focada em encontrar brechas legais e reverter atos abusivos do
-        fisco <strong style="color:var(--ink);">antes que eles destruam o que você levou anos para construir</strong>.
-      </p>
+      <h2>Como atuamos para garantir o seu direito</h2>
+      <p class="section-lead">Sem filas, sem burocracia e sem exaustão. Sabemos que enfrentar uma doença grave já é
+        um processo difícil. Por isso, nossa atuação é focada em <strong style="color:var(--ink);">tirar todo o peso
+          burocrático das suas costas</strong>.</p>
 
       <div class="editorial-list">
         <div class="editorial-item">
           <div class="editorial-number">01.</div>
           <div class="editorial-content">
-            <h3>Identificação de Nulidades e Prescrição</h3>
-            <p>Analisamos minuciosamente o processo para verificar se a dívida já prescreveu ou se há cobrança de
-              valores abusivos e indevidos pelo Fisco.</p>
+            <h3>Auditoria Médica e Legal</h3>
+            <p>Analisamos minuciosamente seus laudos e exames para garantir o perfeito enquadramento na
+              legislação.</p>
           </div>
         </div>
         <div class="editorial-item">
           <div class="editorial-number">02.</div>
           <div class="editorial-content">
-            <h3>Medidas Liminares de Urgência</h3>
-            <p>Atuamos de forma rápida para suspender atos de penhora e garantir que sua empresa continue operando com
-              segurança financeira ininterrupta.</p>
+            <h3>Agilidade no Processo</h3>
+            <p>Conduzimos a estratégia de forma ágil, buscando evitar perícias exaustivas e demoradas em filas do
+              INSS.</p>
           </div>
         </div>
         <div class="editorial-item">
           <div class="editorial-number">03.</div>
           <div class="editorial-content">
-            <h3>Blindagem Patrimonial Preventiva</h3>
-            <p>Estratégias jurídicas sólidas para proteger seus bens pessoais da desconsideração da personalidade
-              jurídica, preservando o patrimônio da família.</p>
+            <h3>Cálculo de Restituição Exato</h3>
+            <p>Identificamos a data real do diagnóstico para buscar, judicial ou administrativamente, cada centavo
+              que o fisco cobrou injustamente nos últimos anos.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ SEÇÃO 3: AUTORIDADE (grafite) ══════════ -->
+  <!-- ══════════ SEÇÃO 4: AUTORIDADE (grafite) ══════════ -->
   <section style="background:var(--bg);">
     <div class="container">
       <div class="authority-grid">
@@ -910,45 +962,37 @@
           style="border-radius:16px; overflow:hidden; border:1px solid rgba(201,136,77,.35); box-shadow:0 24px 60px rgba(0,0,0,.55); background:url('dr.jpeg') no-repeat center top; background-size:cover;">
         </div>
         <div>
-          <span class="eyebrow">Conheça o especialista à frente da sua defesa</span>
+          <span class="eyebrow">Especialismo técnico e atendimento humanizado</span>
           <h2 style="font-size:clamp(1.6rem,3vw,2.2rem); margin-top:6px;">Dr. Vitor Hugo Gonçalves Miranda</h2>
           <span
-            style="display:inline-block; margin-top:10px; font-size:.85rem; font-weight:600; letter-spacing:.1em; color:var(--orange-soft); border:1px solid var(--orange-dim); padding:6px 14px; border-radius:999px; background:rgba(201,136,77,.08);">OAB/RJ
+            style="display:inline-block; margin-top:10px; font-size:.9rem; font-weight:600; letter-spacing:.1em; color:var(--orange-soft); border:1px solid var(--orange-dim); padding:6px 14px; border-radius:999px; background:rgba(201,136,77,.08);">OAB/RJ
             230.274</span>
-          <p style="margin-top:24px; color:var(--text-muted); font-size:1.02rem;">Advogado especialista em <strong
-              style="color:var(--text);">Direito Tributário</strong>, com atuação estratégica em proteção patrimonial,
-            defesa empresarial e execução fiscal em todo o Brasil. Reconhecido pela atuação resolutiva e preventiva, já
-            atendeu <strong style="color:var(--text);">centenas de empresários</strong> nas regiões mais estratégicas do
-            país, com foco estrutural em SP, RJ e MG.</p>
+          <p style="margin-top:24px; color:var(--text-muted); font-size:1.05rem;">Advogado especialista em <strong
+              style="color:var(--text);">Direito Tributário</strong>, reconhecido pela atuação resolutiva e
+            preventiva em defesa de cidadãos e empresários em todo o Brasil. O escritório une a alta performance do
+            Direito Tributário a um atendimento humanizado, acolhedor e transparente, focado em <strong
+              style="color:var(--text);">devolver a dignidade e a segurança financeira</strong> a quem mais precisa.
+          </p>
           <div
             style="margin-top:34px; padding:28px 30px; border-radius:14px; background:linear-gradient(135deg,rgba(201,136,77,.16),rgba(201,136,77,.05)); border:1px solid rgba(201,136,77,.35);">
             <div
               style="font-family:var(--serif); font-size:clamp(2rem,4vw,2.8rem); font-weight:700; color:var(--orange-soft); line-height:1.1;">
               + R$ 25 milhões</div>
-            <p style="margin-top:8px; font-size:.95rem; color:var(--text-muted);">economizados em impostos e execuções
-              indevidas para seus clientes blindando negócios e garantindo a paz de espírito de quem produz.</p>
+            <p style="margin-top:8px; font-size:.98rem; color:var(--text-muted);">economizados para seus clientes,
+              com uma banca jurídica altamente especializada e focada no estado do Rio de Janeiro.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ SEÇÃO 4: DIFERENCIAIS (dobra clara) ══════════ -->
+  <!-- ══════════ SEÇÃO 5: POR QUE FAZER SUA ANÁLISE CONOSCO (dobra clara) ══════════ -->
   <section class="section-paper">
     <div class="container">
-      <span class="eyebrow">Por que escolher nossa banca jurídica?</span>
-      <h2>O que nos diferencia no mercado</h2>
+      <span class="eyebrow">O que você encontra em nosso escritório</span>
+      <h2>Por que fazer sua análise conosco?</h2>
 
       <div class="architect-grid">
-        <div class="architect-item">
-          <div class="architect-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-            </svg>
-          </div>
-          <h3>Agilidade Absoluta</h3>
-          <p>O primeiro contato em casos de urgência é imediato e com total prontidão.</p>
-        </div>
         <div class="architect-item">
           <div class="architect-icon">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -956,8 +1000,18 @@
               <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" />
             </svg>
           </div>
-          <h3>Presença Estratégica</h3>
-          <p>Estrutura física e suporte regional em RJ, SP e MG, atendendo todo o território nacional.</p>
+          <h3>Atendimento Especializado no RJ</h3>
+          <p>Ampla experiência e histórico positivo em campanhas de isenção de IR no estado.</p>
+        </div>
+        <div class="architect-item">
+          <div class="architect-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 12h8M8 16h5M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+              <path d="M14 3v4h4" />
+            </svg>
+          </div>
+          <h3>Comunicação Clara e Direta</h3>
+          <p>Sem termos jurídicos complicados. Falamos a sua língua para que você entenda cada passo.</p>
         </div>
         <div class="architect-item">
           <div class="architect-icon">
@@ -966,8 +1020,9 @@
               <path d="M7 11V7a5 5 0 0 1 10 0v4" />
             </svg>
           </div>
-          <h3>Sigilo de Alto Padrão</h3>
-          <p>Análise preliminar do seu caso sob estrito e absoluto segredo profissional.</p>
+          <h3>Respeito e Sigilo</h3>
+          <p>Análise preliminar gratuita do laudo médico feita de forma 100% sigilosa por advogados especialistas.
+          </p>
         </div>
         <div class="architect-item">
           <div class="architect-icon">
@@ -976,47 +1031,48 @@
               <path d="m9 12 2 2 4-4" />
             </svg>
           </div>
-          <h3>Conformidade Ética</h3>
-          <p>Atuação rigorosa dentro das normas da OAB, unindo agressividade e segurança jurídica.</p>
+          <h3>Segurança OAB</h3>
+          <p>Atuação rigorosa dentro das normas éticas da Ordem dos Advogados do Brasil.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════ SEÇÃO 5: COMO FUNCIONA (grafite) ══════════ -->
+  <!-- ══════════ SEÇÃO 6: COMO FUNCIONA (grafite) ══════════ -->
   <section style="background:var(--bg-soft);">
     <div class="container">
       <span class="eyebrow" style="display:flex;justify-content:center;">Simples, rápido e sigiloso</span>
-      <h2 style="text-align: center; margin: 0 auto;">Como funciona o atendimento?</h2>
+      <h2 style="text-align: center; margin: 0 auto;">Como funciona o seu atendimento?</h2>
 
       <div class="steps">
         <div class="step">
           <div class="step-num">1</div>
-          <h3>Clique no botão</h3>
-          <p>Você será direcionado para o nosso WhatsApp exclusivo de urgências.</p>
+          <h3>Clique no Botão</h3>
+          <p>Você ou seu filho(a)/familiar falará conosco de forma simples pelo WhatsApp.</p>
         </div>
         <div class="step">
           <div class="step-num">2</div>
-          <h3>Análise preliminar</h3>
-          <p>Nossa equipe jurídica especializada fará uma triagem sigilosa do cenário atual da sua empresa.</p>
+          <h3>Envio do Laudo</h3>
+          <p>Faremos uma análise preliminar gratuita do laudo médico e dos comprovantes de aposentadoria.</p>
         </div>
         <div class="step">
           <div class="step-num">3</div>
-          <h3>Desenho estratégico</h3>
-          <p>Desenhamos a melhor linha de defesa ou blindagem para o seu caso específico.</p>
+          <h3>Confirmação do Direito</h3>
+          <p>Validamos se você cumpre os requisitos e damos entrada no pedido para cessar os descontos o quanto
+            antes.</p>
         </div>
       </div>
 
       <div style="margin-top: 56px; text-align: center;">
         <a class="btn-whatsapp"
-          href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20preciso%20de%20uma%20an%C3%A1lise%20urgente%20sobre%20execu%C3%A7%C3%A3o%20fiscal."
+          href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20gratuita%20sobre%20a%20isen%C3%A7%C3%A3o%20de%20Imposto%20de%20Renda%20por%20doen%C3%A7a%20grave."
           target="_blank" rel="noopener">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M12 2A10 10 0 0 0 2 12a9.9 9.9 0 0 0 1.5 5.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4a1.8 1.8 0 0 0 .2-.4.5.5 0 0 0 0-.4c0-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.1 5 5 0 0 0 1 2.7 11.4 11.4 0 0 0 4.4 3.9 14.6 14.6 0 0 0 1.5.5 3.5 3.5 0 0 0 1.6.1 2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.2-.2-.4-.3Z">
             </path>
           </svg>
-          Solicitar Análise de Urgência
+          Solicitar Análise do Laudo
         </a>
       </div>
     </div>
@@ -1026,22 +1082,23 @@
   <section
     style="text-align:center; padding:110px 0; background:radial-gradient(ellipse at 50% -20%,rgba(201,136,77,.18),transparent 60%), var(--bg); border-top:1px solid rgba(201,136,77,.16);">
     <div class="container">
-      <h2 style="font-size:clamp(1.9rem,4vw,2.9rem); max-width:760px; margin:0 auto;">Não coloque o futuro da sua
-        empresa <em style="font-style:normal; color:var(--orange-soft);">em risco.</em></h2>
-      <p style="margin:24px auto 40px; max-width:560px; color:var(--text-muted); font-size:1.08rem;">Proteja suas
-        contas, seus bens e a continuidade do seu negócio hoje mesmo. Fale diretamente com uma equipe pronta para agir
-        em sua defesa.</p>
+      <h2 style="font-size:clamp(1.9rem,4vw,2.9rem); max-width:780px; margin:0 auto;">Não deixe o seu dinheiro
+        <em style="font-style:normal; color:var(--orange-soft);">nas mãos do fisco.</em>
+      </h2>
+      <p style="margin:24px auto 40px; max-width:600px; color:var(--text-muted); font-size:1.1rem;">É o seu direito
+        legal. Cada mês que passa sem ação é um desconto a mais na sua aposentadoria que poderia estar sendo
+        investido na sua saúde e bem-estar. Deixe que nossa equipe cuide da burocracia para você.</p>
       <a class="btn-whatsapp btn-lg"
-        href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20sigilosa%20do%20meu%20caso."
+        href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20quero%20solicitar%20a%20an%C3%A1lise%20gratuita%20do%20laudo%20m%C3%A9dico%20para%20isen%C3%A7%C3%A3o%20de%20Imposto%20de%20Renda."
         target="_blank" rel="noopener">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
           <path
             d="M12 2A10 10 0 0 0 2 12a9.9 9.9 0 0 0 1.5 5.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4a1.8 1.8 0 0 0 .2-.4.5.5 0 0 0 0-.4c0-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.1 5 5 0 0 0 1 2.7 11.4 11.4 0 0 0 4.4 3.9 14.6 14.6 0 0 0 1.5.5 3.5 3.5 0 0 0 1.6.1 2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .2-1.2c-.1-.1-.2-.2-.4-.3Z">
           </path>
         </svg>
-        Quero uma Análise Sigilosa do Meu Caso
+        Solicitar Análise do Laudo pelo WhatsApp
       </a>
-      <span class="btn-note">Resposta rápida em casos de urgência</span>
+      <span class="btn-note">Análise 100% sigilosa, para você ou seu familiar</span>
     </div>
   </section>
 
@@ -1060,7 +1117,7 @@
           <h3>Fale conosco</h3>
           <p>Agende uma consulta com nossos especialistas e comece a transformar suas preocupações em soluções.</p>
           <a class="btn-contact"
-            href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."
+            href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20gratuita%20sobre%20a%20isen%C3%A7%C3%A3o%20de%20Imposto%20de%20Renda%20por%20doen%C3%A7a%20grave."
             target="_blank" rel="noopener">Entre Em Contato</a>
         </div>
       </div>
@@ -1095,16 +1152,16 @@
       </div>
     </div>
     <div class="footer-bottom container">
-      <p><strong style="color:#B3B7BD;">Dr. Vitor Hugo Gonçalves Miranda</strong> OAB/RJ 230.274 · Direito Tributário
-        · Execução Fiscal · Blindagem Patrimonial</p>
-      <p>Este site tem caráter meramente informativo, em conformidade com o Código de Ética e Disciplina da OAB e o
-        Provimento 205/2021.</p>
+      <p><strong style="color:#B3B7BD;">Dr. Vitor Hugo Gonçalves Miranda</strong> OAB/RJ 230.274 · Direito
+        Tributário · Isenção de Imposto de Renda por Doença Grave</p>
+      <p>Este site tem caráter meramente informativo, em conformidade com o Código de Ética e Disciplina da OAB e
+        o Provimento 205/2021.</p>
     </div>
   </footer>
 
   <!-- Botão flutuante do WhatsApp -->
   <a class="whatsapp-float"
-    href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20preciso%20de%20uma%20an%C3%A1lise%20urgente%20sobre%20execu%C3%A7%C3%A3o%20fiscal."
+    href="https://wa.me/5524981450854?text=Ol%C3%A1%2C%20quero%20uma%20an%C3%A1lise%20gratuita%20sobre%20a%20isen%C3%A7%C3%A3o%20de%20Imposto%20de%20Renda%20por%20doen%C3%A7a%20grave."
     target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
     <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff">
       <path
